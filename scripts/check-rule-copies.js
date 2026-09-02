@@ -44,6 +44,7 @@ for (const [relPath, normalize] of copies) {
 const INVARIANTS = [
   'in this codebase',                      // ladder rung: reuse what already exists (#217)
   'naive heuristic',                       // ceiling-comment rule
+  'Fewer lines is never worth code someone has to decode; when short and clear pull apart, clear wins.',
   'ONE runnable check',                    // test reflex
   'flimsier algorithm',                    // robust-variant rule
   // the four "not lazy about" safety carve-outs: pin each so a reword in either

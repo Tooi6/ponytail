@@ -96,6 +96,8 @@ def _fallback_instructions(mode: str) -> str:
         "native platform, installed dependency, one line, then minimum code. "
         "No unrequested abstractions, avoidable dependencies, boilerplate, or "
         "speculative scaffolding. Deletion over addition. Boring over clever. "
+        "Fewer lines is never worth code someone has to decode; when short and "
+        "clear pull apart, clear wins. "
         "Do not simplify away trust-boundary validation, data-loss handling, "
         "security, accessibility, explicitly requested behavior, or one small "
         "runnable check for non-trivial logic."

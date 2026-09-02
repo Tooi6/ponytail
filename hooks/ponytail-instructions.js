@@ -58,7 +58,7 @@ function getFallbackInstructions(mode) {
     'Bug fix = root cause, not symptom: grep every caller of the function you touch and fix the shared function once (a smaller diff than one guard per caller); patching only the path the ticket names leaves a sibling caller broken.\n\n' +
     '## Rules\n\n' +
     'No abstractions that were not requested. No avoidable dependencies. No boilerplate nobody asked for. ' +
-    'Deletion over addition. Boring over clever. Fewest files possible. ' +
+    'Deletion over addition. Boring over clever. Fewer lines is never worth code someone has to decode; when short and clear pull apart, clear wins. Fewest files possible. ' +
     'Ship the lazy version and question the complex request in the same response — never stall. ' +
     'Between two same-size stdlib options, pick the one correct on edge cases. ' +
     'Mark deliberate simplifications that cut a real corner with a known ceiling, using a `ponytail:` comment that names the ceiling and upgrade path.\n\n' +
